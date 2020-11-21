@@ -1,0 +1,138 @@
+.auth-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    
+}
+.diaries-app-title{
+    
+    
+    font-size: 4rem;
+    color:rgb(72, 36, 129);
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.diaries-app-title span{
+    font-style: italic;
+    font-weight: normal;
+}
+@media (max-width:600px){
+    .diaries-app-title{
+        font-size: 3rem;
+    }
+}
+.auth-form{
+    position: relative;
+    width:30%;
+    background-color: rgb(241, 239, 239);
+    border-radius: 12px;
+    
+}
+@media (max-width:1000px){
+    .auth-form{
+        width:50%;
+    }
+}
+@media (max-width:800px){
+    .auth-form{
+        width:60%;
+    }
+}
+@media (max-width:600px){
+    .auth-form{
+        width:80%;
+    }
+}
+@media (max-width:400px){
+    .auth-form{
+        width:95%;
+    }
+}
+.auth-form form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+.email-container{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.auth-form input{
+    display: block;
+    
+    
+    height:50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 12px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    border:1px solid #bebbbb;
+    /* margin-bottom: 10%; */
+}
+
+.auth-form input:focus{
+    outline: none;
+
+    border-color: rgb(72, 36, 129);
+}
+.auth-form form button{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 12px;
+    height:50px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(72, 36, 129);
+}
+.auth-form form button:hover{
+    background-color: rgb(86, 66, 119);
+}
+.form-newAccount{
+    width:90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    
+    display: block;
+    text-align: center;
+    border-top: 1px solid #bebbbb;
+}
+.form-newAccount p{
+    cursor: pointer;
+    color:rgb(72, 36, 129);
+    font-size: 20px;
+}
+.no-user{
+    display:block;
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:red;
+}
+.no-user-link{
+    cursor: pointer;
+    
+    font-weight: bold;
+}
+.no-user-link:hover{
+    border-bottom: 1px solid red;
+}
+.required-error{
+    color:red;
+    margin-left: 5%;
+}

@@ -1,0 +1,117 @@
+.entries-container{
+    
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    overflow:auto;
+}
+.entry-button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:150px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    transition: all 0.2s;
+    
+}
+.entry-button:hover{
+    border:1px solid rgb(72, 36, 129);
+    border-radius: 20px;
+}
+.entries-container .entry-button button{
+    font-size: 5rem;
+    padding: 25px 45px 25px 45px;
+    cursor: pointer;
+    font-weight: lighter;
+    border:none;
+    color:rgb(195, 179, 219);
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+.entries-container button:hover{
+    background-color: rgb(195, 179, 219);
+    color: rgb(72, 36, 129);
+}
+.entry-card{
+    border-radius: 22px;
+    margin-top: 10%;
+    width:60%;
+    /* height:60vh; */
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 239, 239);
+}
+@media (max-width:600px){
+    .entry-card{
+        width:80%;
+    }
+}
+.entry-card-title{
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    /* height:30%; */
+}
+.entry-card-title-user{
+    
+    /* height:40%; */
+    padding-top: 3%;
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.entry-card-title-title{
+    padding-top: 5%;
+
+    font-size: 20px;
+
+}
+.entry-card-content{
+    
+    height:100%;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 20px;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    word-wrap: break-word;
+}
+.entry-card-buttons{
+    
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height:25%;
+    justify-content: space-around;
+    margin-left:5%;
+    margin-right: 5%;
+    
+    border-top: 1px solid rgb(95, 95, 95);
+}
+.entry-card-buttons button{
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    width:100%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(134, 134, 134);
+    
+}
+.entry-card-buttons button:hover{
+    color:white;
+    background-color:rgb(72, 36, 129);
+}
+
